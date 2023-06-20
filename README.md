@@ -1,2 +1,2 @@
 # calendar-app
-Yazılım Yapımı dersi final projesi takvim uygulaması. 
+Yazılım Yapımı dersi final projesi Takvim Uygulaması..
