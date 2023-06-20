@@ -1,0 +1,67 @@
+.main-text{
+	-fx-font-size: 18px;
+	-fx-font-family: "Arial Black";
+	-fx-font-weight: bold;
+	-fx-background-color: grey;
+	-fx-text-fill: linear-gradient(from 55.9242% 0.0% to 68.2464% 100.0%, #f2002c 0.0%, #390dd9e9 98.9933%, #390dd9e9 100.0%);
+}
+.rich-blue {
+    -fx-background-color:
+        #000000,
+        linear-gradient(#7ebcea, #2f4b8f),
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+.about-text {
+	-fx-font-family: "Times New Roman";
+	-fx-font-size: 18px;
+	-fx-text-fill : linear-gradient(from 0.0% 0.0% to 100.0% 100.0%, #ab2323 0.0%, #ab2323 0.6711%, #423cb5 100.0%);
+	-fx-background-color: #E0C4F0;
+}
+.days {
+    -fx-background-color: white;
+    -fx-text-fill: green;
+    -fx-font-size: 30px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    }
+.not-days {
+    -fx-background-color: white;
+    -fx-text-fill: grey;
+    -fx-font-size: 30px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+.today {
+    -fx-background-color: white;
+    -fx-text-fill: green;
+    -fx-font-size: 30px;
+    -fx-border-color: red;
+    -fx-border-width: 4px;
+}
+.days:hover{
+    -fx-border-color: #007bff;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+}
+.not-days:hover {
+    -fx-border-color: #007bff;
+    -fx-border-width: 5px;
+    -fx-border-radius: 7px;
+}
+.selected-day {
+    -fx-border-color: #00C3FF;
+    -fx-border-width: 4px;
+}
+.not-selected-day {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+.selected-pane {
+    -fx-background: white;
+}
